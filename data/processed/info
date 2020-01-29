@@ -4,7 +4,7 @@ add_ir.py and add_m.py write the ir and molecular formula information respective
 
 so the array in ms-m-ir-nmr.txt is conformed of 3 areas:
 
-[---nmr---,---C H O---. ---ether alcohol carbonyl---]
+[---nmr---,---C H O---. ---alcohol ether carbonyl---]
 
 nmr: floats
 molecular form: integers
