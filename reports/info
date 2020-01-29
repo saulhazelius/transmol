@@ -1,1 +1,3 @@
 get_valid_form.py gets the total number of correctly predicted molecules and the C H O counts. This is done with the deepsmiles to smiles conversions and rdkit processing.
+
+the allspec_90 file is an example of the real and predicted deepsmiles generated in the 90th epoch (model with 512 dimensions in embedding and hidden variables, see notebooks)
