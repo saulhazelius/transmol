@@ -1,0 +1,13 @@
+get_dataset1.py converts the nmr-smi.txt data set which contains only C and O atoms with less than 10 spectra to a file including its corresponding EI-B spectrometry 'ms-nmr.txt'
+
+add_ir.py and add_m.py write the ir and molecular formula information respectively:
+
+so the array in ms-m-ir-nmr.txt is conformed of 3 areas:
+
+[---nmr---,---C H O---. ---ether alcohol carbonyl---]
+
+nmr: floats
+molecular form: integers
+ir: binaries
+[---34.5, 140,9, 160.2---, ---4 3 4---, ---0 0 1---]
+
