@@ -1,0 +1,9 @@
+matplotlib
+# train model
+torch
+scikit-learn
+# cheminformatics requirements
+rdkit
+deepsmiles
+# data preproc
+pandas 

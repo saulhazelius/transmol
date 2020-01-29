@@ -1,0 +1,6 @@
+1913 samples C and O only
+train on 0.9 test on 0.1
+512 emb dim
+256 hidden dim
+4 lstm
+86 samples correct = 45 %
