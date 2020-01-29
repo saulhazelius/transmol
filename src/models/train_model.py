@@ -66,7 +66,7 @@ import torch.optim as optim
 from modules import *
 import numpy as np
 
-
+#Sets and Transformer classes taken from Juho Lee et al. except the DecoderRNN
 class SmallDeepSet(nn.Module):
     def __init__(self, pool="max"):
         super().__init__()
