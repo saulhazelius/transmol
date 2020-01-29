@@ -2,6 +2,7 @@ TRANSMOL
 ==============================
 
 We are going to employ a Transformer-based architecture to predict sequences of characters that represent molecules. The data for the molecular prediction consist on 13C NMR, EI-B mass spectrometry, IR, and molecular formula values.
+The architecture uses some modules from Juho Lee et al. https://arxiv.org/abs/1810.00825 that are suitable for sets that are permutation-invariant.
 
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
